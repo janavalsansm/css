@@ -1,0 +1,20 @@
+*{
+    background-color:rgb(91, 255, 241);
+}
+h1{
+    text-align: center;
+}
+div{
+    border-style: double;
+    border-color: black;
+}
+.divcss21{
+    border-style: dotted;
+    border-color: brown;
+}
+#div{
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    border-width: 5px 5px;
+}
