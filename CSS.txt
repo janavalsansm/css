@@ -1,0 +1,94 @@
+CSS
+
+1.CSS can be added to HTML documents in 3 ways:
+*External: External CSS consists of a separate file. The web page file (HTML) will link to this separate file.
+*Internal: Internal CSS occurs at the beginning of an HTML file. This code will apply to only the file in which it is inserted. ...
+*Inline: Inline CSS occurs inside the HTML file at the element level.
+
+
+2.Syntax:
+*CSS syntax refers to the way we write CSS code. In order to write CSS, you need to first identify the element in your HTML page that you want to style before adding styles using  of built-in CSS properties.
+
+
+3.Selectors:
+*CSS selectors are used to "find" (or select) the HTML elements you want to style.
+1. CSS element Selector:
+The element selector selects HTML elements based on the element name.
+2. CSS id Selector:
+*The id selector uses the id attribute of an HTML element to select a specific element.
+*The id of an element is unique within a page, so the id selector is used to select one unique element!
+*To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+3.CSS class Selector:
+*The class selector selects HTML elements with a specific class attribute.
+*To select elements with a specific class, write a period (.) character, followed by the class name.
+4.CSS Universal Selector:
+*The universal selector (*) selects all HTML elements on the page.
+5.CSS Grouping Selector
+*The grouping selector selects all the HTML elements with the same style definitions.
+*Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+
+
+4.CSS Backgrounds
+*The CSS background properties are used to add background effects for elements.
+*CSS background properties:
+#.background-color
+#.background-image
+
+5.CSS Borders.
+*The CSS border properties allow you to specify the style, width, and color of an element's border
+*Border properties:
+ *border-width
+ *border-style
+ *border-color 
+
+6.CSS Margins:
+*Margins are used to create space around elements, outside of any defined borders.
+*CSS has properties for specifying the margin for each side of an element:
+#margin-top
+#margin-right
+#margin-bottom
+#margin-left
+
+7.CSS Padding:
+*The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+*CSS has properties for specifying the padding for each side of an element:
+*padding-top
+*padding-right
+*padding-bottom
+*padding-left
+
+8.CSS Hieght and Width:
+*The height and width properties are used to set the height and width of an element.
+
+9.CSS Box model:
+*The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The image below illustrates the box model
+
+10.CSS Link:
+*With CSS, links can be styled in many different ways.
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+
+11.CSS Lists:
+The list-style-type property specifies the type of list item marker.
+
+12.CSS Tables:
+A table in CSS is used to apply the various styling properties to the HTML Table elements to arrange the data in rows and columns, or possibly in a more complex structure in a properly organized manner
+
+13:CSS Display:
+The display property is used to specify how an element is shown on a web page.
+Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.
+The display property is used to change the default display behavior of HTML elements.
+
+14. CSS Positioning:
+The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+
+15.CSS Float:
+*The CSS float property specifies how an element should float.
+*The float Property:
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+The float property can have one of the following values:
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float (will be displayed just where it occurs in the text). This is default
