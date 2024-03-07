@@ -18,3 +18,7 @@ div{
     border-radius: 2%;
     border-width: 5px 5px;
 }
+p{
+    outline-color: red;
+    outline-style: dotted;
+}
